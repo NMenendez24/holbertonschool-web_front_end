@@ -145,7 +145,7 @@ ul.row {
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
-.nav .nav-link:before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -154,7 +154,7 @@ ul.row {
     width: 0;
     height: 0.2rem;
 }
-.nav .nav-link:before .nav-item:hover {
+.nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
