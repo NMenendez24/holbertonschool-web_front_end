@@ -226,7 +226,7 @@ ul.row {
 .card-work .card-title {
     text-align: center;
     margin: 0;
-    opacity: 0.2;
+    opacity: 0;
     height: 100%;
     position: relative;
 }
@@ -235,7 +235,7 @@ ul.row {
     text-decoration: none;
     padding-top: 45%;
 }
-.card-title a::after, .card-work a::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
