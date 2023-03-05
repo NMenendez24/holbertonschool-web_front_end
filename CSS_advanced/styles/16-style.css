@@ -1,5 +1,5 @@
 @import url(https://github.com/necolas/normalize.css/blob/master/normalize.css);
-* {
+*, *::after, *::before {
     box-sizing: border-box;
 }
 html {
@@ -53,7 +53,7 @@ a:active {
     font-weight: var(--font-weight-bold);
 }
 .container {
-    max-width: 960px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
